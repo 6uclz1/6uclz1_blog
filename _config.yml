@@ -18,7 +18,7 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-  
+
 
 sass:
  style: compressed
@@ -26,5 +26,6 @@ sass:
 exclude:
 - README.md
 
+paginate: 3 # the number of post per page
 
 gems: [jekyll-seo-tag, jekyll-paginate]
